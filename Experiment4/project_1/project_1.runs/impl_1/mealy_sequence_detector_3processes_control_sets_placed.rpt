@@ -1,0 +1,56 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Wed May 24 19:34:29 2023
+| Host         : THE-FLY running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file mealy_sequence_detector_3processes_control_sets_placed.rpt
+| Design       : mealy_sequence_detector_3processes
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |     3 |
+| Minimum Number of register sites lost to control set restrictions |    16 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |               2 |            1 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               4 |            1 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+---------------+------------------+------------------+----------------+
+|        Clock Signal       | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------+---------------+------------------+------------------+----------------+
+|  n_0_nextstate_reg[1]_i_2 |               |                  |                1 |              2 |
+|  clk_IBUF_BUFG            |               | reset_IBUF       |                1 |              2 |
+|  clk_IBUF_BUFG            | ain_IBUF      | reset_IBUF       |                1 |              4 |
++---------------------------+---------------+------------------+------------------+----------------+
+
+

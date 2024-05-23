@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed May 10 00:41:20 2023
+# Process ID: 13132
+# Log file: D:/Experiment/Experiment2/xup/digital/xup_and_test/xup_and_test.runs/synth_1/system_wrapper.vds
+# Journal file: D:/Experiment/Experiment2/xup/digital/xup_and_test/xup_and_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1684929024">
+  <File Type="PWROPT-DCP" Name="moore_sequence_detector_3processes_pwropt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PLACE-DCP" Name="moore_sequence_detector_3processes_placed.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DRC" Name="moore_sequence_detector_3processes_drc_pwropted.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="moore_sequence_detector_3processes_timing_summary_routed.rpt"/>
+  <File Type="PA-TCL" Name="moore_sequence_detector_3processes.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DCP" Name="moore_sequence_detector_3processes_opt.dcp"/>
+  <File Type="OPT-DRC" Name="moore_sequence_detector_3processes_drc_opted.rpt"/>
+  <File Type="PLACE-IO" Name="moore_sequence_detector_3processes_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="moore_sequence_detector_3processes_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="moore_sequence_detector_3processes_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="moore_sequence_detector_3processes_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="moore_sequence_detector_3processes_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="moore_sequence_detector_3processes_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="moore_sequence_detector_3processes_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="moore_sequence_detector_3processes_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="moore_sequence_detector_3processes_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="moore_sequence_detector_3processes_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="moore_sequence_detector_3processes_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="moore_sequence_detector_3processes_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="moore_sequence_detector_3processes_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="moore_sequence_detector_3processes_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="moore_sequence_detector_3processes_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="moore_sequence_detector_3processes_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="moore_sequence_detector_3processes_route_status.pb"/>
+  <File Type="ROUTE-TIMING-PB" Name="moore_sequence_detector_3processes_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="moore_sequence_detector_3processes_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="moore_sequence_detector_3processes_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="moore_sequence_detector_3processes_postroute_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="moore_sequence_detector_3processes.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="moore_sequence_detector_3processes_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="moore_sequence_detector_3processes_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="moore_sequence_detector_3processes_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="moore_sequence_detector_3processes.bit"/>
+  <File Type="BG-BIN" Name="moore_sequence_detector_3processes.bin"/>
+  <File Type="BITSTR-MSK" Name="moore_sequence_detector_3processes.msk"/>
+  <File Type="BITSTR-RBT" Name="moore_sequence_detector_3processes.rbt"/>
+  <File Type="BITSTR-NKY" Name="moore_sequence_detector_3processes.nky"/>
+  <File Type="BITSTR-BMM" Name="moore_sequence_detector_3processes_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="moore_sequence_detector_3processes.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="moore_sequence_detector_3processes.sysdef"/>
+  <File Type="BG-BGN" Name="moore_sequence_detector_3processes.bgn"/>
+  <File Type="BG-DRC" Name="moore_sequence_detector_3processes.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab4_2_sources/moore_sequence_detector_3processes_template.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab4_2_sources/moore_sequence_detector_3processes_template.v"/>
+        <Attr Name="ImportTime" Val="1529730702"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="moore_sequence_detector_3processes"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab4_2_sources/moore_sequence_detector_3processes_basys3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab4_2_sources/moore_sequence_detector_3processes_basys3.xdc"/>
+        <Attr Name="ImportTime" Val="1464709798"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

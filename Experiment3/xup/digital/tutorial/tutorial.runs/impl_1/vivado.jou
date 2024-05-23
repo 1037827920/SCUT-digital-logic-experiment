@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat May 20 13:35:19 2023
+# Process ID: 41088
+# Log file: D:/Experiment/Experiment3/xup/digital/tutorial/tutorial.runs/impl_1/tutorial.vdi
+# Journal file: D:/Experiment/Experiment3/xup/digital/tutorial/tutorial.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source tutorial.tcl -notrace

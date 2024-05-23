@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed May 24 19:34:11 2023
+# Process ID: 23636
+# Log file: D:/Experiment/Experiment4/project_1/project_1.runs/impl_1/mealy_sequence_detector_3processes.vdi
+# Journal file: D:/Experiment/Experiment4/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mealy_sequence_detector_3processes.tcl -notrace

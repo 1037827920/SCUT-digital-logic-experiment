@@ -1,0 +1,7 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Experiment/Experiment4/project_2/project_2.srcs/sources_1/imports/lab4_2_sources/moore_sequence_detector_3processes_template.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moore_sequence_detector_3processes
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Experiment/Experiment4/project_2/project_2.srcs/sim_1/imports/lab4_2_sources/moore_sequence_detector_3processes_tb_template.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moore_sequence_detector_3processes_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Experiment/Experiment4/project_2/project_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

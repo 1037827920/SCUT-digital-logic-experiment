@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed May 24 20:01:50 2023
+# Process ID: 42856
+# Log file: D:/Experiment/Experiment4/project_2/project_2.runs/impl_1/moore_sequence_detector_3processes.vdi
+# Journal file: D:/Experiment/Experiment4/project_2/project_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source moore_sequence_detector_3processes.tcl -notrace

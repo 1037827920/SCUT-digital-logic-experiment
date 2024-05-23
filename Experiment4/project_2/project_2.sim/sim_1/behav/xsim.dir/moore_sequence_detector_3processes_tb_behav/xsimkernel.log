@@ -1,0 +1,7 @@
+Running: xsim.dir/moore_sequence_detector_3processes_tb_behav/xsimk.exe -simmode gui -wdb moore_sequence_detector_3processes_tb_behav.wdb -simrunnum 0 -socket 5379
+Design successfully loaded
+Design Loading Memory Usage: 23044 KB (Peak: 23044 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 23352 KB (Peak: 23352 KB)
+Simulation CPU Usage: 93 ms

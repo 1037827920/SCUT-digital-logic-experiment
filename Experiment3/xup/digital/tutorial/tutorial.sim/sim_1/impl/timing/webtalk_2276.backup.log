@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat May 20 13:34:48 2023
+# Process ID: 19212
+# Log file: D:/Experiment/Experiment3/xup/digital/tutorial/tutorial.sim/sim_1/impl/timing/webtalk.log
+# Journal file: D:/Experiment/Experiment3/xup/digital/tutorial/tutorial.sim/sim_1/impl/timing\webtalk.jou
+#-----------------------------------------------------------
+source D:/Experiment/Experiment3/xup/digital/tutorial/tutorial.sim/sim_1/impl/timing/xsim.dir/tutorial_tb_time_impl/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3383338538 -regid "212722083_0_0_706" -xml D:/Experiment/Experiment3/xup/digital/tutorial/tutorial.sim/sim_1/impl/timing/xs..."
+    (file "D:/Experiment/Experiment3/xup/digital/tutorial/tutorial.sim/sim_1/impl/timing/xsim.dir/tutorial_tb_time_impl/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Sat May 20 13:34:49 2023...

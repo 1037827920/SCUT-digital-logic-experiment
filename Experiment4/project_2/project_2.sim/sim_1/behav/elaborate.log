@@ -1,0 +1,13 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/.Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 5bcb5080637944a19a3c89bc189b0f4a --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot moore_sequence_detector_3processes_tb_behav xil_defaultlib.moore_sequence_detector_3processes_tb xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.moore_sequence_detector_3process...
+Compiling module xil_defaultlib.moore_sequence_detector_3process...
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot moore_sequence_detector_3processes_tb_behav

@@ -1,0 +1,353 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -mode batch -messageDb vivado.pb -source design_1_wrapper.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/.Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/.Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/.Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/.Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/.Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/.Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property webtalk.parent_dir D:/Experiment/Experiment1/Experiment1.cache/wt [current_project]
+# set_property parent.project_path D:/Experiment/Experiment1/Experiment1.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# set_property ip_repo_paths D:/Experiment/Experiment1/2014_2_artix7_sources/XUP_LIB [current_project]
+# add_files D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/design_1.bd
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Experiment/Experiment1/2014_2_artix7_sources/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/.Xilinx/Vivado/2014.4/data/ip'.
+# set_property used_in_implementation false [get_files -all D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
+# set_property is_locked true [get_files D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/design_1.bd]
+# read_verilog -library xil_defaultlib D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+# read_xdc D:/Experiment/Experiment1/2014_2_artix7_sources/tutorial/tutorial_basys3.xdc
+# set_property used_in_implementation false [get_files D:/Experiment/Experiment1/2014_2_artix7_sources/tutorial/tutorial_basys3.xdc]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# catch { write_hwdef -file design_1_wrapper.hwdef }
+# synth_design -top design_1_wrapper -part xc7a35tcpg236-1
+Command: synth_design -top design_1_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 241.426 ; gain = 82.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'design_1' [D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/hdl/design_1.v:12]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_0_0' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_0_0/synth/design_1_xup_and2_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_and2' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/ipshared/xilinx.com/xup_and2_v1_0/06e46591/xup_and2.srcs/sources_1/new/xup_and2.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_and2' (1#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/ipshared/xilinx.com/xup_and2_v1_0/06e46591/xup_and2.srcs/sources_1/new/xup_and2.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xup_and2_0_0' (2#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_0_0/synth/design_1_xup_and2_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_0_1' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/synth/design_1_xup_and2_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xup_and2_0_1' (3#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/synth/design_1_xup_and2_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_0_0' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/synth/design_1_xup_inv_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_inv' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/ipshared/xilinx.com/xup_inv_v1_0/c7c39646/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_inv' (4#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/ipshared/xilinx.com/xup_inv_v1_0/c7c39646/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xup_inv_0_0' (5#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/synth/design_1_xup_inv_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_0_1' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_0_1/synth/design_1_xup_inv_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xup_inv_0_1' (6#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_0_1/synth/design_1_xup_inv_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or2_0_0' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_0_0/synth/design_1_xup_or2_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_or2' [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/ipshared/xilinx.com/xup_or2_v1_0/2f899ac2/xup_or2.srcs/sources_1/new/xup_or2.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_or2' (7#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/ipshared/xilinx.com/xup_or2_v1_0/2f899ac2/xup_or2.srcs/sources_1/new/xup_or2.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xup_or2_0_0' (8#1) [d:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_0_0/synth/design_1_xup_or2_0_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (9#1) [D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/hdl/design_1.v:12]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (10#1) [D:/Experiment/Experiment1/Experiment1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 275.422 ; gain = 116.078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 275.422 ; gain = 116.078
+---------------------------------------------------------------------------------
+Loading clock regions from C:/.Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from C:/.Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from C:/.Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/.Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/.Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from C:/.Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/.Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Experiment/Experiment1/2014_2_artix7_sources/tutorial/tutorial_basys3.xdc]
+Finished Parsing XDC File [D:/Experiment/Experiment1/2014_2_artix7_sources/tutorial/tutorial_basys3.xdc]
+Parsing XDC File [D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 500.688 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc, line 7).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_0. (constraint file  D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc, line 10).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_1. (constraint file  D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc, line 13).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_0. (constraint file  D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc, line 16).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_1. (constraint file  D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc, line 19).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or2_0. (constraint file  D:/Experiment/Experiment1/Experiment1.runs/synth_1/dont_touch.xdc, line 22).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module design_1_wrapper 
+Detailed RTL Component Info : 
+Module xup_and2 
+Detailed RTL Component Info : 
+Module design_1_xup_and2_0_0 
+Detailed RTL Component Info : 
+Module design_1_xup_and2_0_1 
+Detailed RTL Component Info : 
+Module xup_inv 
+Detailed RTL Component Info : 
+Module design_1_xup_inv_0_0 
+Detailed RTL Component Info : 
+Module design_1_xup_inv_0_1 
+Detailed RTL Component Info : 
+Module xup_or2 
+Detailed RTL Component Info : 
+Module design_1_xup_or2_0_0 
+Detailed RTL Component Info : 
+Module design_1 
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 500.688 ; gain = 341.344
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 538.602 ; gain = 379.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 538.602 ; gain = 379.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 547.602 ; gain = 388.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 547.602 ; gain = 388.258
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 547.602 ; gain = 388.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 547.602 ; gain = 388.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     3|
+|3     |IBUF |     8|
+|4     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------+----------------------+------+
+|      |Instance       |Module                |Cells |
++------+---------------+----------------------+------+
+|1     |top            |                      |    21|
+|2     |  design_1_i   |design_1              |     5|
+|3     |    xup_and2_0 |design_1_xup_and2_0_0 |     1|
+|4     |    xup_and2_1 |design_1_xup_and2_0_1 |     1|
+|5     |    xup_inv_0  |design_1_xup_inv_0_0  |     1|
+|6     |    xup_inv_1  |design_1_xup_inv_0_1  |     1|
+|7     |    xup_or2_0  |design_1_xup_or2_0_0  |     1|
++------+---------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 547.602 ; gain = 388.258
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 547.602 ; gain = 130.547
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 547.602 ; gain = 388.258
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 551.172 ; gain = 359.383
+# write_checkpoint -noxdef design_1_wrapper.dcp
+# catch { report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 551.172 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 00:41:49 2023...
